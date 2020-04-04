@@ -1,4 +1,6 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:latest
 
 USER gitpod
-RUN echo ".gitpod.Dockerfile" >> /workspace/gitpod-Dockerfile.log
+RUN echo ".gitpod.Dockerfile" >> /tmp/gitpod-Dockerfile.log
+
+USER root
