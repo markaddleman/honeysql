@@ -1,3 +1,2 @@
-FROM gitpod/workspace-full
-
-# Install custom tools, runtime, etc.
+image:
+  file: docker/Dockerfile
