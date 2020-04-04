@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/jkk/honeysql) 
+
 # Honey SQL
 
 SQL as Clojure data structures. Build queries programmatically -- even at runtime -- without having to bash strings together.
